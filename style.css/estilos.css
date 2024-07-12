@@ -86,46 +86,6 @@ main {
 }
 
 
-
-/*Sección Hobbies*/
-
-.hobbies__box {
-    text-align: center;
-}
-
-.hobbies__box ul {
-    list-style:none ;
-}
-
-.hobbies__img {
-    max-width: 100%;
-    height: auto
-
-}
-
-.hobbies__name {
-    font-weight: bold; 
-    color: #556655;
-    margin-top: 20px;
-}
-
-/* Experiencia Académica*/
-
-section.academic{
-    background-color: #fff;
-}
-
-.academic__title {
-    margin: 0 auto 20px;
-    text-align: center;
-    font-size: 30px;
-}
-
-.academic__courses {
-    display: flex;
-    gap: 20px;
-}
-
 /* experiencia*/
 
 section.experience{
