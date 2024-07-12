@@ -1,0 +1,191 @@
+@import url("reset.css");
+@import url("menu.css");
+@import url("header.css");
+@import url("skill.css");
+@import url("hobbis.css");
+@import url("footer.css");
+@import url("about.css");
+@import url("formacion.css");
+@import url("contacto.css");
+
+:root{
+   --cor-de-header: darksalmon;
+   --cor-de-fundo: #f8edeb;
+    --cor-de-cascada: #eae0ed;
+    --cor-de-degrade: #ffdab9;
+   --cor-de-link: #7e0000;
+}
+
+
+
+body, html {
+    
+    background: linear-gradient(to bottom, var(--cor-de-fundo), var(--cor-de-cascada), var(--cor-de-degrade));
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilos generales*/
+
+.common-section{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+}
+
+.common-title{
+    margin: 0 auto 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(255, 216, 165);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.common-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    
+    
+}
+
+
+
+/*Sección Hobbies*/
+
+.hobbies__box {
+    text-align: center;
+}
+
+.hobbies__box ul {
+    list-style:none ;
+}
+
+.hobbies__img {
+    max-width: 100%;
+    height: auto
+
+}
+
+.hobbies__name {
+    font-weight: bold; 
+    color: #556655;
+    margin-top: 20px;
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+    background-color: #fff;
+}
+
+.academic__title {
+    margin: 0 auto 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.academic__courses {
+    display: flex;
+    gap: 20px;
+}
+
+/* experiencia*/
+
+section.experience{
+
+}
+
+/*Contacto*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+/*menu*/
+
+
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
